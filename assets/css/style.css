@@ -496,6 +496,10 @@ a:hover {
 /**
 * Desktop Navigation 
 */
+.navbar .logonav {
+  height: 65px;
+  width: 170px;
+}
 .navbar {
   padding: 0;
 }
@@ -701,6 +705,11 @@ a:hover {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+img.logonav {
+  vertical-align: middle;
+  height: 100px;
+  width: 110px;
+}
 .hero {
   height: 100vh;
   position: relative;
@@ -878,6 +887,7 @@ a:hover {
 # Portfolio
 --------------------------------------------------------------*/
 .work-box {
+  width:auto;
   margin-bottom: 3rem;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
