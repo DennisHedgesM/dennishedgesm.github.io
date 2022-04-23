@@ -496,9 +496,10 @@ a:hover {
 /**
 * Desktop Navigation 
 */
-.navbar .logonav {
-  height: 65px;
-  width: 170px;
+img.logonav {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
 }
 .navbar {
   padding: 0;
