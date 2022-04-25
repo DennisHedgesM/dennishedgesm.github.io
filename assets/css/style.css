@@ -8,8 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
-element.style {
-}
+
 .vlt-btn, .vlt-btn--md {
     height: 2.8125rem;
     padding: 0 2.8125rem;
@@ -496,10 +495,9 @@ a:hover {
 /**
 * Desktop Navigation 
 */
-img.logonav {
-    vertical-align: middle;
-    width: 100px;
-    height: 100px;
+.navbar .logonav {
+  height: 65px;
+  width: 170px;
 }
 .navbar {
   padding: 0;
@@ -708,8 +706,8 @@ img.logonav {
 --------------------------------------------------------------*/
 img.logonav {
   vertical-align: middle;
-  height: 100px;
-  width: 110px;
+  height: 70px;
+  width: 80px;
 }
 .hero {
   height: 100vh;
@@ -1191,7 +1189,7 @@ img.logonav {
 .card-blog .post-date {
   color: #4e4e4e;
   display: inline-block;
-  float: right;
+
 }
 
 /*--------------------------------------------------------------
